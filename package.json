@@ -1,0 +1,9 @@
+{
+  "name": "vue-fadeout",
+  "version": "1.0.0",
+  "description": "Vue component for inline text fadeout",
+  "main": "components/Fadeout.vue",
+  "repository": "https://github.com/Dacrol/vue-fadeout.git",
+  "author": "Dacrol <jonas.ahrens@gmail.com>",
+  "license": "MIT"
+}
