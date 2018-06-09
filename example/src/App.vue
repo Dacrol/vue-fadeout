@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <fadeout text="This text will be truncated because it is longer than 60 characters." :truncate-chars="60" :offset="18"/>
+    <br />
+    <fadeout text="This text won't." :truncate-chars="60"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Fadeout from "vue-fadeout";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    Fadeout
   }
 };
 </script>
