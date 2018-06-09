@@ -6949,9 +6949,9 @@ vue-eslint-parser@^2.0.3:
     esquery "^1.0.0"
     lodash "^4.17.4"
 
-vue-fadeout@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vue-fadeout/-/vue-fadeout-1.0.0.tgz#1b3483f76514375a91b6374d3bddf0b596ddb600"
+vue-fadeout@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-fadeout/-/vue-fadeout-1.0.1.tgz#6c7f6f20715675f6365e6911018bf25c2d0e7ed5"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.0"
