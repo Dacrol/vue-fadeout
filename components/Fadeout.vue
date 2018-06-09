@@ -48,16 +48,11 @@ export default {
           truncateChars += 3
           partial = partial + '...'
         }
-        if (offset > 0) {
-          partial = partial + ' '.repeat(offset)
-          truncateChars += offset
-          fadeChars += offset
-        }
         if (this.fade) {
           result[0] = [partial.substring(0, truncateChars - fadeChars), 1]
           let faded = Array.prototype.map.call(partial.substring(truncateChars - fadeChars, truncateChars),
             (char, index) => {
-              let x = index / fadeChars
+              let x = index / (fadeChars + offset)
               let quickMaffs = 0.4 * x ** 2 - 1.4 * x + 1
               // 0.623886 x^2 - 1.62389 x + 1
               // return `<span style="opacity: ${quickMaffs};">${char}</span>`
