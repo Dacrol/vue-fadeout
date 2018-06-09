@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <fadeout text="This text will be truncated because it is longer than 60 characters." :truncate-chars="60" :offset="1"/>
+    <fadeout text="This text will be truncated because it is longer than 60 characters." :truncate-chars="60" :offset="2" :fade-chars="25" :fade="true" :dots="false"/>
     <br />
     <fadeout text="This text won't." :truncate-chars="60"/>
   </div>
