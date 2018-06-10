@@ -4,6 +4,9 @@
   "description": "Vue component for inline text fadeout",
   "main": "components/Fadeout.vue",
   "repository": "https://github.com/Dacrol/vue-fadeout.git",
+  "scripts": {
+    "gh-pages": "git subtree split --branch gh-pages --prefix example/dist/"
+  },
   "author": "Dacrol <jonas.ahrens@gmail.com>",
   "license": "MIT"
 }
